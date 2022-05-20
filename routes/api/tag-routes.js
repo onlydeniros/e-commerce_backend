@@ -70,17 +70,17 @@ router.delete('/:id', (req, res) => {
       id: req.params.id
     }
   })
-    .then(dbTag => {
-      if (!dbTag) {
-        res.send(404).json({ message: 'No Tag found by that ID.' })
+    .then(tagData => {
+      if (!tagData) {
+        res.status(404).json({ message: 'No Tag found by that ID.' });
         return;
       }
-      res.send(dbTag)
+      res.json(tagData);
     })
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
-    })
+    });
 });
 
 module.exports = router;
