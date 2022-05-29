@@ -7,7 +7,7 @@ This app is the backend portion of an E-Commerce website. Express.js was used fo
 The SQL database includes tables for products, categories, tags, and product tags. RESTful API routes are used to make requests and updates from the database which are joined through Sequelize queries allowing the ability to "CRUD" the database. 
 
 
-## Techno Used
+## Technology Used
 - Node
 - Express
 - MySQL
@@ -51,4 +51,4 @@ Open up Insomnia core to GET, POST, PUT and DELETE from different routes.
 
 ## Questions
 Please visit my **[GitHub profile](https://github.com/onlydeniros)** to check out this and other projects I've created and contributed to.
-If you have any specific questions about this project, please contact me at <denirodumasdev@gmail.com>.
+If you have any specific questions about this project, please contact me at <dumasdj23@gmail.com>.
